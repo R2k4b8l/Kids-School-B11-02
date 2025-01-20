@@ -1,10 +1,102 @@
-  /* font */
+  /*google font */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
-// <weight>: Use a value from 300 to 700
 
-#Quicksand{
+#quicksand{
   font-family: "Quicksand", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 400;
   font-style: normal;
 }
+
+/* /shared styles */
+.btn-primary{
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 197px;
+  height: 40px;
+  font-size: 1.2rem;
+}
+
+body{
+  max-width: 85%;
+  margin:0 auto;
+  /* margin: 0;
+  padding: 0; */
+}
+/* navbar */
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid black; */
+
+}
+  
+
+  .logo{
+    display: flex;
+    align-items: center;
+    
+  }
+  .logo-image{
+    width: 55px;
+    height:55px;
+  }
+  .logo-title{
+    margin-left:10px;
+    font-weight:700;
+    font-size: 2rem;
+  }
+  .nav-items{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    font-size: 1.2rem;
+    
+  }
+  .nav-items li a{
+    text-decoration: none;
+  }
+
+  .orange{
+  color: rgb(254, 163, 1);
+  }
+  
+  .skyblue{
+    color: rgb(1, 172, 253);;
+  }
+  .green{
+    color: rgb(5, 212, 223);
+  }
+  .blue{
+    color: rgb(93, 88, 239);
+  }
+.contact-button{
+  background-color:rgb(254, 163, 1);
+  
+  }
+/* hero section */
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  border: 2px solid black;
+
+} 
+.hero>h1{
+  font-size: 3.5rem;
+  font-weight:bold;}
+
+.hero>p{
+  font-size: 1.2rem;
+  margin: 20px 0;}
+  
+
+.enroll-button{
+  background-color:rgb(17, 17, 17);
+  margin: 20px 0;}
+  
+
