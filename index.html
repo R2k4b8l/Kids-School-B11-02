@@ -8,17 +8,20 @@
     <title>Kids-Education </title>
 </head>
 <body id="quicksand">
-    <section>
+    <main>
+    <section class="heros ">
 <!-- navbar -->
-        <nav class="navbar">
+        <nav class="navbar ">
             <div class="logo">
                 <img class="logo-image" src="images/logo.png" alt="logo">
-                <h3 class="logo-title">SCHOOL</h3>
+         
+                <h3 class="logo-title hide-for-small">SCHOOL</h3>
             </div>
+            
 
 
 
-            <div class="nav-items">
+            <div class="nav-items hide-for-small">
                 <li><a class="orange" href="#">Home</a></li>
                 <li><a class="skyblue" href="#">About</a></li>
 
@@ -27,11 +30,14 @@
                 <li><a class="blue" href="#">Admission</a></li>
             </div>
             <div>
-                <button class="contact-button btn-primary">
+                <button class="contact-button btn-primary hide-for-small">
                     Contact
                 </button>
             </div>
+            
         </nav>
+       <hr class="hide-web ">
+        
 
         <!-- hero section -->
          <header>
@@ -58,26 +64,214 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
     </section>
-
 <!--main section-->
-    <main>
+    
+        <!-- Standard Curriculum -->
+        <section class="curriculum">
+            <div class="curriculum-title">
+                <h1>Standard Curriculum</h1>
+            </div>
 
+            <div class="cards">
+                <!-- card -->
+                <div class="card1">
+                    <img src="images/kinder.png" alt="">
+                    <h3>Kinder (3-6) Years</h3>
+                    <p>Cum sociis natoque penatibus et magnis
+                        dis parturient montes, nascetur ridiculus
+                        mu sdis parturient</p>
+                        <button class="btn-more "  id="read-a">Read More</button>
+                </div>
+
+                <div class="card2">
+                    <img src="images/elementary.png" alt="">
+                    <h3>Elementary School</h3>
+                    <p>Cum sociis natoque penatibus et magnis
+                        dis parturient montes, nascetur ridiculus
+                        mu sdis parturient</p>
+                        <button class="btn-more" id="read-b">Read More</button>
+                </div>
+
+                <div class="card3">
+                    <img src="images/middle.png" alt="">
+                    <h3>Middle (10-16) Years</h3>
+                    <p>Cum sociis natoque penatibus et magnis
+                        dis parturient montes, nascetur ridiculus
+                        mu sdis parturient</p>
+                        <button class="btn-more">Read More</button>
+                </div>
+
+            </div>
+            <div class="pagination hide-for-small ">
+                <button> < </button>
+                <button> > </button>
+            </div>
+        </section>
+
+        <!-- our stories section -->
+
+        <section class="our-stories-section">
+
+            <h1 class="our-storie">Our Stories</h1>
+            <div class="our-stories-container">
+                
+                <div class="our-stories display-flex">
+                    <div class="our-stories1">
+                       
+                        <img src="images/story-1.png" alt="">
+                
+                        <button class="story-button ">
+                            <span class="story-date">November 19, 2019</span>
+                        </button>
+
+                        <h3 class="story-title">A fun toddler coloring training on classroom</h3>
+                        <p>Beautiful branding for changes by Never Now in Australia. Changes is a platform for open discussion in an inclusive and collaborative environment...</p>
+
+
+                    </div>
+
+
+                    <div class="our-stories2 display-flex">
+
+
+                        <div class=" our-stories2-card">
+                       
+                            <img src="images/story-2.png" alt="">
+                    
+                            <button class="story-button2 ">
+                                <span>November 19, 2019</span>
+                            </button>
+    
+                         <h3 class="story-title2">Find out if a school fits <br> the 
+                            family’s needs</h3>
+                            
+    
+    
+                        </div>
+
+                        
+                    <!-- card2 -->
+                        
+                        <div class=" our-stories2-card">
+                       
+                            <img src="images/story-2.png" alt="">
+                    
+                            <button class="story-button2 ">
+                                <span>November 19, 2019</span>
+                            </button>
+    
+                         <h3 class="story-title2">Summer math & literacy <br>
+                            centres for kids</h3>
+                            
+    
+    
+                        </div>
+                        <!-- card3 -->
+                        
+                        <div class=" our-stories2-card">
+                       
+                            <img src="images/story-2.png" alt="">
+                    
+                            <button class="story-button2 ">
+                                <span>November 19, 2019</span>
+                            </button>
+    
+                         <h3 class="story-title2">Classroom management
+                           <br> techniques for new tutors</h3>
+                            
+    
+    
+                        </div>
+                        <!-- card4 -->
+                        
+                        <div class=" our-stories2-card">
+                       
+                            <img src="images/story-2.png" alt="">
+                    
+                            <button class="story-button2 ">
+                                <span>November 19, 2019</span>
+                            </button>
+    
+                         <h3 class="story-title2">Conversation rhymes
+                           <br> improve kids listening</h3>
+                            
+    
+    
+                        </div>
+
+
+
+                    </div>
+
+                    
+
+
+
+
+
+
+
+                </div>
+                
+                 
+            </div>
+           <div class="view-all-btn">
+            <button class="enroll-button btn-primary btn-view">View All</button>
+           </div>
+
+        </section>
     </main>
+
     <!-- footer section -->
+
      <footer>
+        <section class="footer-section">
+           
+         <div class="footer-logo">
+            <div class="logo">
+                <img class="logo-image" src="images/logo.png" alt="logo">
+                <h3 class=" logo-title">Kids <br class="hide-for-small">
+                Education</h3>
+            </div>
+            <p class="logo-description">
+                The year 2010 is marked as the <br> beginning of an era as the gates <br>
+                 of Jahanara Israil School and <br> college opened to cater to Learn 
+                <br>
+                Privacy Policy | Terms of Use
+            </p>
+
+                
+               
+            </div>
+           
+
+           <div class="about-school">
+              <h3> About School</h3>
+             <div class="about-school-list">
+                
+               <li> <a href="#">Home</a></li>
+               <li> <a href="#">About</a></li>
+               <li> <a href="#">Facilities</a></li>
+               <li> <a href="#">Admission</a></li>
+            
+             </div>
+
+           </div>
+
+
+
+           <div class="keep-in-touch"> 
+               <h3>Keep in Touch </h3>
+               <div>
+                <img src="images/fb.png" alt="">
+                <img src="images/dribble.png" alt="">
+                <img src="images/twitter.png" alt="">
+                <img src="images/google+.png" alt="">
+               </div>
+
+           </div>
+        </section>
 
     </footer>
 
